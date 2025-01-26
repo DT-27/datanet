@@ -1,0 +1,473 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Datanetwork Consultation Services</title>
+    <!--/google-fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <!--//google-fonts -->
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+
+    <style>
+/* Form container styling */
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+/* Dropdown styles */
+.dropdown select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown select:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0px 0px 5px #007BFF;
+}
+
+/* Portfolio grid container */
+.port {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Individual image container */
+.image-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    display: none; /* Initially hidden */
+}
+
+/* Image styling */
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Overlay text container */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: left;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.image-item:hover .overlay {
+    opacity: 1;
+}
+
+/* Overlay text styling */
+.overlay h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.overlay p {
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+</style>
+
+
+
+</head>
+
+<body>
+    <!--/Header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
+                <h1><a class="navbar-brand pe-xl-5 pe-lg-4" href="index.html">
+                        <span class="sublog">b-</span>datanetwork
+                    </a></h1>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-lg-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+<li class="nav-item">
+                            <a class="nav-link active" href="services.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+                    <ul class="navbar-nav search-right mt-lg-0 mt-2">
+                        <li class="nav-item" title="Search"><a href="#search" class="search-search">
+                                <span class="fas fa-search" aria-hidden="true"></span></a></li>
+                        <li class="nav-item me-lg-3"><a href="" class="phone-btn btn btn-primary btn-style d-none d-lg-block btn-style ms-2">Purchase</a></li>
+                    </ul>
+
+                    <!-- //toggle switch for light and dark theme -->
+
+                    <!-- search popup -->
+                    <div id="search" class="w3lpop-overlay">
+                        <div class="w3lpopup">
+                            <form action="#formsearch" method="GET" class="d-sm-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search here..." aria-label="Search" required="">
+                                <button class="btn btn-style btn-primary" type="submit">Search</button>
+                                <a class="close" href="#formsearch">&times;</a>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- /search popup -->
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="mobile-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!--//Header-->
+    <!-- breadcrumb -->
+    <section class="w3l-about-breadcrumb section">
+        <div class="breadcrumb-bg breadcrumb-bg-about">
+            <div class="container py-lg-5 py-sm-4">
+                <div class="w3breadcrumb-gids text-center">
+                    <div class="w3breadcrumb-info mt-5">
+                        <h2 class="w3ltop-title pt-4">Portfolio</h2>
+                        <ul class="breadcrumbs-custom-path">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active"><span class="fas fa-angle-double-right mx-2"></span> Portfolio </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//breadcrumb-->
+
+    <div class="form-container">
+      <div class="form-container">
+      <!-- Industry Dropdown -->
+      <div class="dropdown">
+          <select name="industry" id="industry" onchange="filterImages()">
+              <option value="" disabled selected hidden>Industry</option>
+              <option value="technology">Technology</option>
+              <option value="finance">Finance</option>
+              <option value="healthcare">Healthcare</option>
+              <option value="education">Education</option>
+              <option value="entertainment">Entertainment</option>
+          </select>
+      </div>
+
+      <!-- Capability Dropdown -->
+      <div class="dropdown">
+          <select name="capability" id="capability" onchange="filterImages()">
+              <option value="" disabled selected hidden>Capability</option>
+              <option value="design">Design</option>
+              <option value="development">Development</option>
+              <option value="marketing">Marketing</option>
+              <option value="analytics">Analytics</option>
+              <option value="consulting">Consulting</option>
+          </select>
+      </div>
+  </div>
+
+  <div class="port">
+      <div class="image-item technology design">
+          <img src="assets/images/g8.jpg" alt="Technology Design">
+          <div class="overlay">
+              <h3>Project Title</h3>
+              <p>This is a technology design project that focused on innovation.</p>
+          </div>
+      </div>
+      <div class="image-item finance marketing">
+          <img src="assets/images/g6.jpg" alt="Finance Marketing">
+          <div class="overlay">
+              <h3>Project Title</h3>
+              <p>This project highlights advanced finance marketing strategies.</p>
+          </div>
+      </div>
+      <div class="image-item healthcare analytics">
+          <img src="assets/images/g5.jpg" alt="Healthcare Analytics">
+          <div class="overlay">
+              <h3>Project Title</h3>
+              <p>An analytics-driven solution for the healthcare industry.</p>
+          </div>
+      </div>
+      <div class="image-item education consulting">
+          <img src="assets/images/g4.jpg" alt="Education Consulting">
+          <div class="overlay">
+              <h3>Project Title</h3>
+              <p>Consulting for modernizing educational tools and systems.</p>
+          </div>
+      </div>
+      <div class="image-item entertainment design">
+          <img src="assets/images/g3.jpg" alt="Entertainment Design">
+          <div class="overlay">
+              <h3>Project Title</h3>
+              <p>Designing captivating experiences for the entertainment industry.</p>
+          </div>
+      </div>
+      <div class="image-item technology development">
+          <img src="assets/images/g2.jpg" alt="Technology Development">
+          <div class="overlay">
+              <h3>Project Title</h3>
+              <p>Developing innovative solutions for the tech sector.</p>
+          </div>
+      </div>
+      <div class="image-item finance analytics">
+          <img src="assets/images/g1.jpg" alt="Finance Analytics">
+          <div class="overlay">
+              <h3>Project Title</h3>
+              <p>Analytics tools to improve financial decision-making.</p>
+          </div>
+      </div>
+  </div>
+
+    <!-- footer -->
+    <section class="w3l-footer-29-main section" style="margin-top:200px;">
+        <div class="footer-29 py-5">
+            <div class="container py-lg-4">
+                <div class="row footer-top-29">
+                    <div class="col-lg-4 col-md-6 footer-list-29 footer-1 pe-lg-5">
+                        <div class="footer-logo mb-4">
+                            <h2><a class="navbar-brand" href="index.html">
+                                    <span class="sublog">b-</span>datanetwork
+                                </a></h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur elit.Pellen tesque libero ut justo, ultrices in ligula accusantium libero fugit.
+
+                        </p>
+                        <div class="w3l-two-buttons mt-4">
+                            <a href="#trail" class="btn btn-primary btn-style"> Try it For Free </a>
+                        </div>
+                        <div class="main-social-footer-29 mt-5">
+                            <a href="#facebook" class="facebook"><span class="fab fa-facebook-f"></span></a>
+                            <a href="#twitter" class="twitter"><span class="fab fa-twitter"></span></a>
+                            <a href="#instagram" class="instagram"><span class="fab fa-instagram"></span></a>
+                            <a href="#linkedin" class="linkedin"><span class="fab fa-linkedin-in"></span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-list-29 footer-2 mt-sm-0 mt-5">
+
+                        <ul>
+                            <h6 class="footer-title-29">Links</h6>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="blog.html"> Blog posts</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blog.html"> Blog posts</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-list-29 footer-3 mt-lg-0 mt-5">
+                        <h6 class="footer-title-29">Services</h6>
+                        <ul>
+                            <li><a href="#traning">Web Design</a></li>
+                            <li><a href="#traning">Development</a></li>
+                            <li><a href="#traning">Marketing Plans</a></li>
+                            <li><a href="#marketplace">Digital Services</a></li>
+                            <li><a href="#experts">Email Marketing</a></li>
+                            <li><a href="#platform">Product Selling</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-2 col-md-6  footer-list-29 footer-4 mt-lg-0 mt-5">
+                        <h6 class="footer-title-29">More Info</h6>
+                        <ul>
+                            <li><a href="#seo">Offline SEO</a></li>
+                            <li><a href="#traning">Development</a></li>
+                            <li><a href="#hack">Growth Hacking</a></li>
+                            <li><a href="#studio">Film Studio</a></li>
+                            <li><a href="#branding">Branding</a></li>
+                            <li><a href="#experts">Email Marketing</a></li>
+                            <li><a href="#marketplace">Lead Generation</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6  footer-list-29 footer-4 mt-lg-0 mt-5">
+                        <h6 class="footer-title-29">Support</h6>
+                        <ul>
+                            <li><a href="#awards">Awards</a></li>
+                            <li><a href="#secutiry">Security</a></li>
+
+                            <li><a href="#proj">Products</a></li>
+                            <li><a href="#efaq">faQ</a></li>
+                            <li><a href="#help">Help</a></li>
+                            <li><a href="#mail">Mail Us</a></li>
+                            <li><a href="#terms">Terms
+                                </a></li>
+                            <li><a href="#policy">Privacy Policy</a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- copyright -->
+        <section class="w3l-copyright text-center">
+            <div class="container">
+                <p class="copy-footer-29">© 2021 DigitMarketing. All rights reserved. Design by <a href="https://w3layouts.com/" target="_blank">
+                        W3Layouts</a></p>
+            </div>
+
+            <!-- move top -->
+            <button onclick="topFunction()" id="movetop" title="Go to top">
+                <span class="fas fa-arrow-up"></span>
+            </button>
+            <script>
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {
+                    scrollFunction()
+                };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        document.getElementById("movetop").style.display = "block";
+                    } else {
+                        document.getElementById("movetop").style.display = "none";
+                    }
+                }
+
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+
+            </script>
+            <!-- /move top -->
+        </section>
+        <!-- //copyright -->
+    </section>
+    <!-- //footer -->
+    <!-- Js scripts -->
+    <!-- Template JavaScript -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/theme-change.js"></script>
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function() {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function() {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function() {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function() {
+            $('.navbar-toggler').click(function() {
+                $('body').toggleClass('noscroll');
+            })
+        });
+
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!-- //bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/easyResponsiveTabs.js"></script>
+  <script>
+      document.querySelectorAll('select').forEach(select => {
+          select.addEventListener('change', () => {
+
+          });
+      });
+
+  </script>
+  <script>
+  function filterImages() {
+      const industry = document.getElementById('industry').value;
+      const capability = document.getElementById('capability').value;
+
+      // Get all images
+      const images = document.querySelectorAll('.image-item');
+
+      // Loop through the images and display those matching the selected categories
+      images.forEach(image => {
+          const matchesIndustry = !industry || image.classList.contains(industry);
+          const matchesCapability = !capability || image.classList.contains(capability);
+
+          if (matchesIndustry && matchesCapability) {
+              image.style.display = 'block';
+          } else {
+              image.style.display = 'none';
+          }
+      });
+  }
+  </script>
+
+</body>
+
+</html>
